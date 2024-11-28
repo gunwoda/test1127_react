@@ -47,7 +47,7 @@ function App() {
 
   useEffect(() => {
     axios
-      .get('http://localhost:8080') // public 폴더에 data.json 파일 위치
+      .get('http://test1127lb-1653189751.ap-northeast-2.elb.amazonaws.com') // public 폴더에 data.json 파일 위치
       .then((response) => {
         setData(response.data);
       })
